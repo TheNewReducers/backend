@@ -114,7 +114,6 @@ def file_input(file) -> dict:
 
     print(ai_response)
 
-
     ai_response = json.loads(ai_response)
 
     return ai_response

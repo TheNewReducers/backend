@@ -9,12 +9,15 @@ openai.api_key = OPENAI_SECRET_KEY
 
 
 def chat_gpt(input):
+    print("Sending...")
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
             {"role": "user", "content": input}
         ]
     )
+    print("Done...")
+
 
 
     output: str = completion.choices[0].message
@@ -29,6 +32,4 @@ if __name__ == '__main__':
             {"role": "user", "content": "Hello!"}
         ]
     )
-    print(completion.choices[0].message)
-
     print(completion.choices[0].message)

@@ -13,7 +13,7 @@ async def root():
     return {"message": "Hello World"}
 
 
-@app.post("/uploadfile/")
+@app.post("/uploadfile")
 async def create_upload_file(file: UploadFile):
     file_process = file.file
 

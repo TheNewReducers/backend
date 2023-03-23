@@ -1,19 +1,31 @@
 from fastapi import FastAPI, UploadFile
-import openai
 from typing import Annotated
 
 from fastapi import FastAPI, File, UploadFile
 
-openai.api_key = "sk-..."
+import controller
 
 app = FastAPI()
+
 
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
+
+
 @app.post("/uploadfile/")
 async def create_upload_file(file: UploadFile):
-    return {"filename": file.filename}
+
+    file_process = file.file
+
+    resp = controller.file_input(file_process)
+
+    return {
+        "filename": file.filename,
+        "output": resp
+    }
 
 
-
+@app.get("/categories")
+async def return_all_categories():
+    return None

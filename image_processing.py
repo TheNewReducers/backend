@@ -89,11 +89,11 @@ def detect_labels(path):
         print(label.description)
 
 if __name__ == '__main__':
-    #detect_labels("./test-data/kassenbon-1.jpg")
-    #detect_text("./test-data/kassenbon-1.jpg")
 
     path = "./test-data/kassenbon-1.jpg"
-    features = [vision.Feature.Type.TEXT_DETECTION]
 
-    response = analyze_image_from_uri(path, features)
-    print_text(response)
+
+    #detect_labels(path)
+    detect_text(path)
+
+    #print_text(analyze_image_from_uri(path, [vision.Feature.Type.TEXT_DETECTION]))

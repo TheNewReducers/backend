@@ -1,0 +1,54 @@
+{
+    "timestamp": "08.12.07 16:27 37589",
+    "items": [
+        {
+            "name": "NATED ANISM SAEL SCHWEINFURT",
+            "category": "Snacks",
+            "price": 0.59
+        },
+        {
+            "name": "RADIESCHEN",
+            "category": "Vegetables",
+            "price": 1.39
+        },
+        {
+            "name": "KAESEAUFSCH.",
+            "category": "Dairy",
+            "price": 1.19
+        },
+        {
+            "name": "BAUCHSPECK",
+            "category": "Meat",
+            "price": 1.19
+        },
+        {
+            "name": "BAUCHSPECK",
+            "category": "Meat",
+            "price": 0.99
+        },
+        {
+            "name": "DORNFELDER",
+            "category": "Alcohol",
+            "price": 2.49
+        },
+        {
+            "name": "CLEMENTINEN",
+            "category": "Fruit",
+            "price": 3.5
+        },
+        {
+            "name": "L&M BLUE",
+            "category": "Cigarettes",
+            "price": 6.4
+        },
+        {
+            "name": "L&M BLUE",
+            "category": "Cigarettes",
+            "price": 6.71
+        }
+    ],
+    "store": {
+        "name": "EDEKA",
+        "location": "OSKAR-VON-MILLER-STR.6"
+    }
+}

@@ -12,17 +12,14 @@ app = FastAPI()
 async def root():
     return {"message": "Hello World"}
 
+
 @app.post("/uploadfile/")
 async def create_upload_file(file: UploadFile):
-
     file_process = file.file
 
-    resp = controller.file_input(file_process)
-
-    return {
-        "filename": file.filename,
-        "output": resp
-    }
+    resp: dict = controller.file_input(file_process)
+    print(type(resp))
+    return resp
 
 
 @app.get("/categories")

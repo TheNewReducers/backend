@@ -18,8 +18,6 @@ def chat_gpt(input):
     )
     print("Done...")
 
-
-
     output: str = completion.choices[0].message
     print(f"{output=}")
     return output

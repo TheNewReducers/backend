@@ -1,3 +1,8 @@
 # backend
 
-FastAPI and OpenAI
+- FastAPI Backend
+
+Install the requirements with:
+
+```pip install -r requirements.txt```
+

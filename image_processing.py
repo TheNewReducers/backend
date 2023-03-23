@@ -106,12 +106,14 @@ def detect_text_from_file(file) -> str:
     return single_string_output
 
 
+def test(): 
+    path = "./test-data/kassenbon-1.jpg"
+    return analyze_image_from_uri(path, [vision.Feature.Type.TEXT_DETECTION])
+
 
 
 if __name__ == '__main__':
-    path = "./test-data/kassenbon-1.jpg"
-
     # detect_labels(path)
      #detect_text(path)
+    test()
 
-    print_text(analyze_image_from_uri(path, [vision.Feature.Type.TEXT_DETECTION]))

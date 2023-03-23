@@ -104,11 +104,13 @@ chat_mock_out = """
 }
 """
 
+CHAT_GPT_PROMT = 'format the receipt to JSON. The keys should be: "timestamp", "items", "store" . Add a new key names "category" per item, which classifies the food to a food category.'
 
 def file_input(file) -> dict:
+
     text: str = detect_text_from_file(file)
     # text = mock_text
-    text += "\n Extract the data to json and classify food catigoeries"
+    text += CHAT_GPT_PROMT
 
     ai_response: dict = chat_gpt(text)["content"]
 
@@ -120,7 +122,7 @@ def file_input(file) -> dict:
 
 
 if __name__ == '__main__':
-    path = "./test-data/kassenbon-1.jpg"
+    path = "./test-data/kassenbon-2.png"
 
     with io.open(path, 'rb') as image_file:
         file_input(image_file)

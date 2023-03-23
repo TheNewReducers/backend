@@ -27,6 +27,8 @@ def analyze_image_from_uri(
 def print_text(response: vision.AnnotateImageResponse):
     print("=" * 80)
     for annotation in response.text_annotations:
+
+
         vertices = [f"({v.x},{v.y})" for v in annotation.bounding_poly.vertices]
         print(
             f"{repr(annotation.description):42}",

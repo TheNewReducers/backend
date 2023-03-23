@@ -16,6 +16,7 @@ def chat_gpt(input):
         ]
     )
 
+
     output: str = completion.choices[0].message
     print(f"{output=}")
     return output
@@ -28,5 +29,6 @@ if __name__ == '__main__':
             {"role": "user", "content": "Hello!"}
         ]
     )
+    print(completion.choices[0].message)
 
     print(completion.choices[0].message)

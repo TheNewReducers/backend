@@ -5,13 +5,16 @@ from typing import Sequence
 
 
 def analyze_image_from_uri(
-    image_uri: str,
+    path: str,
     feature_types: Sequence,
 ) -> vision.AnnotateImageResponse:
     client = vision.ImageAnnotatorClient()
 
-    image = vision.Image()
-    image.source.image_uri = image_uri
+    with io.open(path, 'rb') as image_file:
+        content = image_file.read()
+
+
+    image = vision.Image(content=content)
     features = [vision.Feature(type_=feature_type) for feature_type in feature_types]
     request = vision.AnnotateImageRequest(image=image, features=features)
 
@@ -89,8 +92,8 @@ if __name__ == '__main__':
     #detect_labels("./test-data/kassenbon-1.jpg")
     #detect_text("./test-data/kassenbon-1.jpg")
 
-    image_uri = "./test-data/kassenbon-1.jpg"
+    path = "./test-data/kassenbon-1.jpg"
     features = [vision.Feature.Type.TEXT_DETECTION]
 
-    response = analyze_image_from_uri(image_uri, features)
+    response = analyze_image_from_uri(path, features)
     print_text(response)

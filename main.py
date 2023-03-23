@@ -4,6 +4,7 @@ from typing import Annotated
 from fastapi import FastAPI, File, UploadFile
 
 import controller
+import image_processing
 
 app = FastAPI()
 
@@ -20,6 +21,10 @@ async def create_upload_file(file: UploadFile):
     resp: dict = controller.file_input(file_process)
     print(type(resp))
     return resp
+
+@app.get("/test/")
+async def test():
+   return str(image_processing.test())
 
 
 @app.get("/categories")

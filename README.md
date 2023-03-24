@@ -8,4 +8,4 @@ Install the requirements with:
 
 
 - you need API Keys for OpenAI
-- your need Google Cloud Access 
+- you need Google Cloud Access 

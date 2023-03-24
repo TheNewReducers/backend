@@ -84,6 +84,10 @@ def map_json_to_food_data(receipt_data: dict):
             co2 *= amount
             item["co2_item"] = co2
 
+            if data.get("info") is None:
+                item["info"] = None
+            else: item["info"] = data["info"]
+
     print(receipt_data)
 
 

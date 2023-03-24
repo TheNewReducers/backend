@@ -1,179 +1,447 @@
 {
-    "Ananas, frisch, gemäß realem Transport-Durchschnitt": "0.9",
-    "Ananas, per Schiff": "0.6",
-    "Ananas, per Flugzeug": "15.1",
-    "Ananas, Dose": "1.8",
-    "Apfel, Durchschnitt": "0.3",
-    "Apfel, aus der Region im Herbst": "0.3",
-    "Apfel, aus der Region im April": "0.4",
-    "Apfel (Bio), Durchschnitt": "0.2",
-    "Apfel, aus Neuseeland": "0.8",
-    "Aubergine": "0.2",
-    "Avocado, Durchschnitt": "0.6",
-    "Avocado, aus Peru": "0.8",
-    "Avocado (Bio), aus Peru": "0.8",
-    "Banane": "0.6",
-    "Birne": "0.3",
-    "Blumenkohl": "0.2",
-    "Bohnen, frisch": "0.8",
-    "Bohnen, Dose": "1.3",
-    "Brokkoli, frisch": "0.3",
-    "Brokkoli, gefroren": "0.7",
-    "Champignons, frisch, hell oder dunkel": "1.3",
-    "Champignons, Dose": "2.4",
-    "Erbsen, frisch, grün, in Schoten": "0.4",
-    "Erbsen, getrocknet": "2.3",
-    "Erbsen, gefroren": "1.2",
-    "Erbsen, grün, Dose": "1.7",
-    "Erbsen, grün, Glas": "1.7",
-    "Erdbeeren, frisch, Durchschnitt": "0.3",
-    "Erdbeeren, frisch, aus der Region, saisonal": "0.3",
-    "Erdbeeren, frisch, aus Spanien": "0.4",
-    "Erdbeeren, gefroren": "0.7",
-    "Erdbeeren, frisch, Winter-Erdbeeren": "3.4",
-    "Feldsalat": "0.3",
-    "Fenchel": "0.2",
-    "Grünkohl, frisch": "0.3",
-    "Grünkohl, Glas": "0.9",
-    "Karotten": "0.1",
-    "Kartoffeln, frisch": "0.2",
-    "Kartoffeln (Bio)": "0.2",
-    "Kartoffelpüreepulver": "0.9",
-    "Kichererbsen, Dose": "1.3",
-    "Kohlrabi": "0.2",
-    "Kürbis": "0.2",
-    "Lauch": "0.2",
-    "Leinsamen": "1.4",
-    "Linsen, getrocknet": "1.2",
-    "Linsen (Bio), getrocknet": "1.7",
-    "Linsen, Dose": "1.7",
-    "Mais, Dose": "1.2",
-    "Orange / Apfelsine": "0.3",
-    "Paprika": "0.6",
-    "Pfirsich, frisch": "0.2",
-    "Pfirsich, Dose": "1.6",
-    "Rettich": "0.2",
-    "Rosenkohl, frisch": "0.3",
-    "Rosenkohl, gefroren": "0.6",
-    "Rote Beete, frisch": "0.2",
-    "Rote Beete, Glas": "1.3",
-    "Rotkohl, frisch": "0.2",
-    "Rotkohl, Glas": "0.7",
-    "Rucola": "0.3",
-    "Salatgurke mit Plastikfolienverpackung": "0.4",
-    "Salatgurke, ohne Plastikfolienverpackung": "0.4",
-    "Salatgurke (Bio), mit Plastikfolienverpackung": "0.4",
-    "Salatgurke (Bio), ohne Plastikfolienverpackung": "0.4",
-    "Salatmischung, gewaschen": "0.4",
-    "Sellerie": "0.2",
-    "Spargel": "0.7",
-    "Spinat, frisch": "0.2",
-    "Spinat, Blattspinat, gefroren": "0.6",
-    "Tomaten, frisch, Durchschnitt": "0.8",
-    "Tomaten, aus Deutschland, saisonal": "0.3",
-    "Tomaten, aus Südeuropa, Freiland": "0.4",
-    "Tomaten (Bio), frisch": "1.1",
-    "Tomaten, Kirschtomaten": "0.9",
-    "Tomaten, aus Deutschland, beheiztes Gewächshaus,": "2.9",
-    "Tomaten, passiert, Verbundkarton": "1.6",
-    "Tomaten, passiert, Dose": "1.8",
-    "Tomaten, passiert, Glas": "1.9",
-    "Tomatenmark": "4.3",
-    "Trauben, frisch, Durchschnitt": "0.4",
-    "Trauben, frisch, aus Deutschland, saisonal": "0.3",
-    "Trauben, frisch, aus Italien, saisonal": "0.3",
-    "Weißkohl": "0.1",
-    "Zucchini": "0.2",
-    "Zwiebeln": "0.2",
-    "Butter ": "9",
-    "Butter (Bio) ": "11.5",
-    "Ei ": "3",
-    "Joghurt, natur, Kunststoffbecher papierummantelt ": "1.7",
-    "Joghurt, Früchte, Kunststoffbecher papierummantelt ": "1.7",
-    "Joghurt (Bio), natur, Kunststoffbecher papierummantelt ": "1.9",
-    "Joghurt-Ersatz, Soja, Kunststoffbecher papierummantelt ": "0.6",
-    "Käse, Durchschnitt ": "5.7",
-    "Käse (Bio), Durchschnitt ": "7.2",
-    "Käse, Frischkäse ": "5.5",
-    "Käse (Bio), Frischkäse ": "6.9",
-    "Käse, Feta ": "7",
-    "Käse, Hartkäse, wie Emmentaler ": "6",
-    "Käse, Hartkäse, wie Parmesan ": "6.3",
-    "Käse-Ersatz, vegane Genießerscheiben, auf Basis von Kokosfett ": "2",
-    "Milch, ESL, Vollmilch, Verbundkarton ": "1.4",
-    "Milch, ESL, fettarm, Verbundkarton ": "1.2",
-    "Milch, H-Milch, Vollmilch, Verbundkarton ": "1.3",
-    "Milch, H-Milch, fettarm, Verbundkarton ": "1.1",
-    "Milch (Bio), ESL, Vollmilch, Verbundkarton ": "1.7",
-    "Milch-Ersatz, Dinkeldrink": "0.3",
-    "Milch-Ersatz, Haferdrink": "0.3",
-    "Milch-Ersatz, Mandeldrink": "0.3",
-    "Milch-Ersatz, Sojadrink": "0.4",
-    "Quark, 40 % Fett": "3.3",
-    "Quark (Bio), 40 % Fett": "4.1",
-    "Quark, Magerquark, 10 % Fett": "2.4",
-    "Quark-Ersatz, Soja": "0.7",
-    "Sahne": "4.2",
-    "Sahne (Bio)": "5.3",
-    "Sahne-Ersatz, Hafer Cuisine": "0.6",
-    "Saure Sahne": "3",
-    "Bratling/Veggieburger/Patty auf Sojabasis": "1.1",
-    "Bratling/Veggieburger/Patty auf Erbsenbasis": "1.8",
-    "Fisch, Wildfang, Massenware, gefroren": "2.4",
-    "Fisch, Wildfang, Spezialität, gefroren": "10",
-    "Fisch, Aquakultur": "5.1",
-    "Fisch, Garnelen, gefroren": "12.5",
-    "Fisch, Wildfang, frisch": "4",
-    "Gemüsenugget /-schnitzel": "1.3",
-    "Hähnchen, Durchschnitt": "5.5",
-    "Hähnchen, gefroren": "5.7",
-    "Hähnchen, Nuggets": "3.3",
-    "Hähnchen, Wurstaufschnitt": "2.9",
-    "Lupinenmehl": "0.4",
-    "Rindfleisch, Durchschnitt": "13.6",
-    "Rindfleisch (Bio)": "21.7",
-    "Rinder-Hackfleisch": "9.2",
-    "Rinder-Hackfleisch (Bio)": "15.1",
-    "Rinder-Patty/-Bratling, tiefgekühlt": "9",
-    "Schweinefleisch, Durchschnitt": "4.6",
-    "Schweinefleisch (Bio)": "5.2",
-    "Schweinefleisch, gefroren": "4.6",
-    "Seitan": "2.5",
-    "Sojagranulat, Textured Vegetable Protein (TVP)": "1",
-    "Tempeh": "0.7",
-    "Tofu": "1",
-    "Wildfleisch, Hirsch": "11.5",
-    "Wurst, Bratwurst, Thüringer Rostbratwurst": "2.9",
-    "Wurst-Ersatz, vegane Bratwurst": "1.7",
-    "Wurstaufschnitt vom Rind, Aufschnitt": "7.9",
-    "Brot, Mischbrot": "0.6",
-    "Brot (Bio), Mischbrot": "0.6",
-    "Brötchen, Weißbrot": "0.7",
-    "Bulgur": "0.6",
-    "Dinkel, Reisersatz": "0.7",
-    "Erdnüsse, in Schale": "0.8",
-    "Erdnussbutter": "2",
-    "Feinbackwaren": "1.6",
-    "Gnocchi": "0.6",
-    "Haferflocken": "0.6",
-    "Honig, Glas": "2",
-    "Kokosöl": "2.3",
-    "Margarine, halbfett": "1.7",
-    "Margarine, vollfett": "2.8",
-    "Margarine (Bio), vollfett": "2.5",
-    "Nudeln": "0.7",
-    "Nudeln (Bio)": "0.8",
-    "Olivenöl, Glaseinwegflasche": "3.2",
-    "Palmfett": "2.9",
-    "Pommes, tiefgekühlt": "0.7",
-    "Rapsöl, Glaseinwegflasche": "3.3",
-    "Reis": "3.1",
-    "Schokolade, Vollmilchschokolade, Tafel,": "4.1",
-    "Sonnenblumenkerne": "1.5",
-    "Sonnenblumenöl, Glaseinwegflasche": "3.2",
-    "Walnüsse, in Schale": "0.9",
-    "Zucker, Rübenzucker": "0.7",
-    "Zucker (Bio), Rübenzucker": "0.5",
-    "Zucker, Rohrzucker": "1",
-    "Zucker (Bio), Rohrzucker": "0.9"
+  "Ananas": {
+    "co2": 0.9,
+    "base_weigth": 800,
+    "info": "Ananas, per Schiff: 0.6\nAnanas, per Flugzeug: 15.1\n Ananas, Dose: 1.8"
+  },
+  "Apfel": {
+    "co2": 0.3,
+    "base_weigth": 200,
+    "info": "Apfel, aus der Region im Herbst: 0.3\nApfel, aus der Region im April: 0.4\nApfel (Bio), Durchschnitt: 0.2\nApfel, aus Neuseeland: 0.8"
+  },
+  "Aubergine": {
+    "co2": 0.2,
+    "base_weigth": 340
+  },
+  "Avocado": {
+    "co2": 0.6,
+    "base_weigth": 300,
+    "info": "Avocado, aus Peru: 0.8\nAvocado (Bio), aus Peru: 0.8"
+  },
+  "Banane": {
+    "co2": 0.6,
+    "base_weigth": 120
+  },
+  "Birne": {
+    "co2": 0.3,
+    "base_weigth": 206
+  },
+  "Blumenkohl": {
+    "co2": 0.2,
+    "base_weigth": 1000
+  },
+  "Bohnen": {
+    "co2": 0.8,
+    "base_weigth": 250,
+    "info": "frisch\nBohnen, Dose: 1.3"
+  },
+  "Brokkoli": {
+    "co2": 0.3,
+    "base_weigth": 500,
+    "info": "frisch\nBrokkoli, gefroren: 0.7"
+  },
+  "Champignons": {
+    "co2": 1.3,
+    "base_weigth": 100,
+    "info": "frisch, hell oder dunkel\nChampignons, Dose: 2.4"
+  },
+  "Erbsen": {
+    "co2": 0.4,
+    "base_weigth": 280,
+    "info": "frisch, grün, in Schoten\nErbsen, getrocknet: 2.3\nErbsen, gefroren: 1.2\nErbsen, grün, Dose: 1.7\nErbsen, grün, Glas: 1.7"
+  },
+  "Erdbeeren": {
+    "co2": 0.3,
+    "base_weigth": 250,
+    "info": "frisch, Durchschnitt\nErdbeeren, frisch, aus der Region, saisonal: 0.3\nErdbeeren, frisch, aus Spanien: 0.4\nErdbeeren, gefroren: 0.7\nErdbeeren, frisch, Winter-Erdbeeren: 3.4"
+  },
+  "Feldsalat": {
+    "co2": 0.3,
+    "base_weigth": 100
+  },
+  "Fenchel": {
+    "co2": 0.2,
+    "base_weigth": 135
+  },
+  "Grünkohl": {
+    "co2": 0.3,
+    "base_weigth": 1000,
+    "info": "frisch\nGrünkohl, Glas: 0.9"
+  },
+  "Karotten": {
+    "co2": 0.1,
+    "base_weigth": 1000
+  },
+  "Kartoffeln": {
+    "co2": 0.2,
+    "base_weigth": 1500,
+    "info": "frisch\nKartoffeln, Bio: 0.2\nKartoffelpüreepulver: 0.9"
+  },
+  "Kartoffelpüreepulver": {
+    "co2": 0.9,
+    "base_weigth": 230
+  },
+  "Kichererbsen": {
+    "co2": 1.3,
+    "base_weigth": 250,
+    "info": "Dose"
+  },
+  "Kohlrabi": {
+    "co2": 0.2,
+    "base_weigth": 100
+  },
+    "Kürbis": {
+        "co2": 0.2,
+        "base_weigth": 1000
+    }, 
+    "Lauch": {
+        "co2": 0.2,
+        "base_weigth": 150
+    }, 
+    "Leinsamen": {
+        "co2": 1.4,
+        "base_weigth": 400
+    },
+    "Linsen": {
+        "co2": 1.2,
+        "base_weigth": 500,
+        "info": "getrocknet\nLinsen (Bio), getrocknet: 1.7\nLinsen, Dose: 1.7"
+    },
+    "Mais": {
+        "co2": 1.2,
+        "base_weigth": 250,
+        "info": "Dose"
+    },
+    "Orange / Apfelsine": {
+        "co2": 0.3,
+        "base_weigth": 150
+    },
+    "Paprika": {
+        "co2": 0.6,
+        "base_weigth": 155
+    },
+    "Pfirsich": {
+        "co2": 0.2,
+        "base_weigth": 100,
+        "info": "frisch\nPfirsich, Dose: 1.6"
+    },
+    "Rettich": {
+        "co2": 0.2,
+        "base_weigth": 2000
+    },
+    "Rosenkohl": {
+        "co2": 0.3,
+        "base_weigth": 500,
+        "info": "frisch\nRosekohl, gefroren: 0.6"
+    },
+    "Rote Beete": {
+        "co2": 0.2,
+        "base_weigth": 400,
+        "info": "frisch\nRote Beete, Glas: 1.3"
+    },
+    "Rotkohl": {
+        "co2": 0.2,
+        "base_weigth": 1000,
+        "info": "frisch\nRotkohl, Glas: 0.7"
+    },
+    "Rucola": {
+        "co2": 0.3,
+        "base_weigth": 50
+    },
+    "Salatgurke": {
+        "co2": 0.4,
+        "base_weigth": 350,
+        "info": "mit Plastikfolienverpackung\nSalatgurke, ohne Plastikfolienverpackung: 0.4\nSalatgurke (Bio), mit Plastikfolienverpackung: 0.4\nSalatgurke (Bio), ohne Plastikfolienverpackung: 0.4\nSalatmischung, gewaschen: 0.4"
+    },
+    "Salatmischung": {
+        "co2": 0.4,
+        "base_weigth": 200,
+        "info": "gewaschen"
+    },
+    "Sellerie": {
+        "co2": 0.2,
+        "base_weigth": 650
+    },
+    "Spargel": {
+        "co2": 0.7,
+        "base_weigth": 500
+    },
+    "Spinat": {
+        "co2": 0.2,
+        "base_weigth": 200,
+        "info": "frisch\nSpinat, Blattspinat, gefroren: 0.6"
+    },
+    "Tomaten": {
+        "co2": 0.8,
+        "base_weigth": 450,
+        "info": "frisch, Durchschnitt\nTomaten, aus Deutschland, saisonal: 0.3\nTomaten, aus Südeuropa, Freiland: 0.4\nTomaten (Bio), frisch: 1.1\nTomaten, Kirschtomaten: 0.9\nTomaten, aus Deutschland, beheiztes Gewächshaus: 2.9"
+    },
+    "Tomaten, passiert": {
+        "co2": 1.6,
+        "base_weigth": 500,
+        "info": "Verbundkarton\nTomaten, passiert, Dose: 1.8\nTomaten, passiert, Glas: 1.9"
+    },
+    "Tomatenmark": {
+        "co2": 4.3,
+        "base_weigth": 200
+    },
+    "Trauben": {
+        "co2": 0.4,
+        "base_weigth": 100,
+        "info": "frisch, Durchschnitt\nTrauben, frisch, aus Deutschland, saisonal: 0.3\nTrauben, frisch, aus Italien, saisonal: 0.3"
+    },
+    "Weißkohl": {
+        "co2": 0.1,
+        "base_weigth": 3000
+    },
+    "Zucchini": {
+        "co2": 0.2,
+        "base_weigth": 200
+    },
+    "Zwiebeln": {
+        "co2": 0.2,
+        "base_weigth": 289
+    },
+    "Butter": {
+        "co2": 9,
+        "base_weigth": 250,
+        "info": "Butter (Bio): 11.5"
+    },
+    "Ei": {
+        "co2": 3,
+        "base_weigth": 300
+    },
+    "Joghurt": {
+        "co2": 1.7,
+        "base_weigth": 150,
+        "info": "natur, Kunststoffbecher papierummantelt\nJoghurt, Früchte, Kunststoffbecher papierummantelt: 1.7\nJoghurt (Bio), natur, Kunststoffbecher papierummantelt: 1.9\nJoghurt-Ersatz, Soja, Kunststoffbecher papierummantelt: 0.6"
+    },
+    "Käse": {
+        "co2": 5.7,
+        "base_weigth": 100,
+        "info": "Durchschnitt\nKäse (Bio), Durchschnitt: 7.2\nKäse, Frischkäse: 5.5\nKäse (Bio), Frischkäse: 6.9\nKäse, Feta: 7\nKäse, Hartkäse, wie Emmentaler: 6\nKäse, Hartkäse, wie Parmesan: 6.3"
+    },
+    "Käse-Ersatz": {
+        "co2": 2,
+        "base_weigth": 100,
+        "info": "vegane Genießerscheiben, auf Basis von Kokosfett"
+    },
+    "Milch": {
+        "co2": 1.4,
+        "base_weigth": 1000,
+        "info": "ESL, Vollmilch, Verbundkarton\nMilch, ESL, fettarm, Verbundkarton: 1.2\nMilch, H-Milch, Vollmilch, Verbundkarton: 1.3\nMilch, H-Milch, fettarm, Verbundkarton: 1.1\nMilch (Bio), ESL, Vollmilch, Verbundkarton: 1.7"
+    },
+    "Dinkelmilch":{
+        "co2": 0.3,
+        "base_weigth": 1000
+    },
+    "Hafermilch":{
+        "co2": 0.3,
+        "base_weigth": 1000
+    },
+    "Mandelmilch":{
+        "co2": 0.3,
+        "base_weigth": 1000
+    },
+    "Sojamilch":{
+        "co2": 0.4,
+        "base_weigth": 1000
+    },
+    "Quark": {
+        "co2": 3.3,
+        "base_weigth": 400,
+        "info": "40 % Fett\nQuark (Bio), 40 % Fett: 4.1\nQuark, Magerquark, 10 % Fett: 2.4\n"
+    },
+    "Soja": {
+        "co2": 0.7,
+        "base_weigth": 400
+    },
+    "Sahne": {
+        "co2": 4.2,
+        "base_weigth": 200,
+        "info": "Sahne (Bio): 5.3"
+    },
+    "Sahne-Ersatz, Hafer Cuisine": {
+        "co2": 0.6,
+        "base_weigth": 250                      
+    },
+    "Saure Sahne": {
+        "co2": 3,
+        "base_weigth": 200
+    },
+    "Bratling/Veggieburger/Patty auf Sojabasis": {
+        "co2": 1.1,
+        "base_weigth": 115
+    },
+    "Bratling/Veggieburger/Patty auf Erbsenbasis": {
+        "co2": 1.8,
+        "base_weigth": 115
+    },
+    "Fisch": {
+        "co2": 5.1,
+        "base_weigth": 300,
+        "info": "Wildfang, Massenware, gefroren: 2.4\nFisch, Wildfang, Spezialität, gefroren: 10\nFisch, Aquakultur: 5.1\nFisch, Garnelen, gefroren: 12.5\nFisch, Wildfang, frisch: 4"
+    },
+    "Gemüsenugget /-schnitzel": {
+        "co2": 1.3,
+        "base_weigth": 250
+    },
+    "Hähnchen": {
+        "co2": 5.5,
+        "base_weigth": 1000,
+        "info": "Durchschnitt\nHähnchen, gefroren: 5.7\nHähnchen, Nuggets: 3.3\nHähnchen, Wurstaufschnitt: 2.9"
+    },
+    "Lupinenmehl": {
+        "co2": 0.4,
+        "base_weigth": 500
+    },
+    "Rindfleisch": {
+        "co2": 13.6,
+        "base_weigth": 200,
+        "info": "Durchschnitt\nRindfleisch (Bio): 21.7"
+    },
+    "Rinder-Hackfleisch": {
+        "co2": 9.2,
+        "base_weigth": 250,
+        "info": "Rinder-Hackfleisch (Bio): 15.1"
+    },
+    "Rinder-Patty/-Bratling": {
+        "co2": 9,
+        "base_weigth": 100,
+        "info": "tiefgekühlt"
+    },
+    "Schweinefleisch": {
+        "co2": 4.6,
+        "base_weigth": 250,
+        "info": "Durchschnitt\nSchweinefleisch (Bio): 5.2\nSchweinefleisch, gefroren: 4.6"
+    },
+    "Seitan": {
+        "co2": 2.5,
+        "base_weigth": 250
+    },
+    "Sojagranulat": {
+        "co2": 1,
+        "base_weigth": 300,
+        "info": "Textured Vegetable Protein (TVP)"
+    },
+    "Tempeh": {
+        "co2": 0.7,
+        "base_weigth": 200
+    },
+    "Tofu": {
+        "co2": 1,
+        "base_weigth": 500
+    },
+    "Wildfleisch": {
+        "co2": 11.5,
+        "base_weigth": 250,
+        "info": "Hirsch"
+    },
+    "Wurst, Bratwurst, Thüringer Rostbratwurst": {
+        "co2": 2.9,
+        "base_weigth": 500
+    },
+    "Vegane Bratwurst": {
+        "co2": 1.7,
+        "base_weigth": 500
+    },
+    "Wurstaufschnitt vom Rind": {
+        "co2": 7.9,
+        "base_weigth": 400
+    },
+    "Brot": {
+        "co2": 0.6,
+        "base_weigth": 250,
+        "info":"Mischbrot\nBrot (Bio), Mischbrot: 0.6\nBrötchen, Weißbrot: 0.7\n"
+    },
+    "Bulgur": {
+        "co2": 0.6,
+        "base_weigth": 100
+    },
+    "Dinkel": {
+        "co2": 0.7,
+        "base_weigth": 1000
+    },
+    "Erdnüsse, in Schale": {
+        "co2": 0.8,
+        "base_weigth": 200
+    },
+    "Erdnussbutter": {
+        "co2": 2,
+        "base_weigth": 250
+    },
+    "Feinbackwaren": {
+        "co2": 1.6,
+        "base_weigth": 250
+    },
+    "Gnocchi": {
+        "co2": 0.6,
+        "base_weigth": 300
+    },
+    "Haferflocken": {
+        "co2": 0.6,
+        "base_weigth": 500
+    },
+    "Honig": {
+        "co2": 2,
+        "base_weigth": 500
+    },
+    "Kokosöl": {
+        "co2": 2.3,
+        "base_weigth": 1000
+    },
+    "Margarine": {
+        "co2": 1.7,
+        "base_weigth": 250,
+        "info": "halbfett\nMargarine, vollfett: 2.8\nMargarine (Bio), vollfett: 2.5"
+    },
+    "Nudeln": {
+        "co2": 0.7,
+        "base_weigth": 500,
+        "info": "Nudeln (Bio): 0.8"
+    },
+    "Olivenöl": {
+        "co2": 3.2,
+        "base_weigth": 1000
+    },
+    "Palmfett": {
+        "co2": 2.9,
+        "base_weigth": 100
+    },
+    "Pommes": {
+        "co2": 0.7,
+        "base_weigth": 2000,
+        "info": "tiefgekühlt"
+    },
+    "Rapsöl": {
+        "co2": 3.3,
+        "base_weigth": 1000
+    },
+    "Reis": {
+        "co2": 3.1,
+        "base_weigth": 1000
+    },
+    "Schokolade": {
+        "co2": 4.1,
+        "base_weigth": 100,
+        "info": "Vollmilchschokolade, Tafel"
+    },
+    "Sonnenblumenkerne": {
+        "co2": 1.5,
+        "base_weigth": 500
+    },
+    "Sonnenblumenöl": {
+        "co2": 3.2,
+        "base_weigth": 1000,
+        "info": "Glaseinwegflasche"
+    },
+    "Walnüsse": {
+        "co2": 0.9,
+        "base_weigth": 200
+    },
+    "Zucker": {
+        "co2": 0.7,
+        "base_weigth": 500,
+        "info": "Rübenzucker\nZucker (Bio), Rübenzucker: 0.5\nZucker, Rohrzucker: 1\nZucker (Bio), Rohrzucker: 0.9"
+    }
 }

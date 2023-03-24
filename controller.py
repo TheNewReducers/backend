@@ -77,7 +77,7 @@ def map_json_to_food_data(receipt_data:dict):
 
         for item in receipt_data["items"]:
 
-            if item["data_name"] == "undefined" or food_data.get(item["data_name"], 0) is 0:
+            if item["data_name"] == "undefined" or food_data.get(item["data_name"]) is None:
                 item["co2_item"] = None
                 continue
 

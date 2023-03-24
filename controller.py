@@ -1,5 +1,7 @@
 import json
 import io
+from json import JSONDecodeError
+
 from project_utils import str_from_file
 from image_processing import detect_text_from_file
 from gpt_processing import chat_gpt
@@ -32,19 +34,18 @@ def file_input(file) -> dict:
 def to_gpt_query(text) -> str:
     return f"{text}\n{CHAT_GPT_PROMT}"
 
+
 def get_receipt_data(query: str) -> dict:
     if ONLINE:
         gpt_response: str = chat_gpt(query, train_data=TRAIN_GPT_PROMT)["content"]
     else:
         gpt_response: str = str_from_file("./test-data/receipt_mock_data.txt")
 
-    logging.info(gpt_response)
-
-    gpt_response_json: dict = {"state": "error"}
-
-    gpt_response_json = json.loads(gpt_response)
-
-    print(gpt_response_json)
+    try:
+        gpt_response_json = json.loads(gpt_response)
+    except JSONDecodeError:
+        print("JSONDecodeError in get_receipt_data")
+        gpt_response_json: dict = {"state": "error"}
 
     return gpt_response_json
 
@@ -61,19 +62,29 @@ def map_json_to_food_data(receipt_data: dict):
 
         for item in receipt_data["items"]:
 
+            if item["amount"] is None:
+                item["amount"] = 1
+
             if item["data_name"] == "undefined" or food_data.get(item["data_name"]) is None:
                 item["co2_item"] = None
                 continue
 
             data = food_data[item["data_name"]]
+
+            try:
+                amount = int(item["amount"])
+            except ValueError:
+                amount = 1
+
             co2 = data["co2"] * (data["base_weigth"] / 1000)
+            co2 *= amount
             item["co2_item"] = co2
 
     print(receipt_data)
 
 
 if __name__ == '__main__':
-    path = "./test-data/kassenbon-2.png"
+    path = "./test-data/kassenbon-3.png"
 
     with io.open(path, 'rb') as image_file:
         file_input(image_file)

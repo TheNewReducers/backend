@@ -21,10 +21,14 @@ CHAT_GPT_PROMT = "Given is a receipt. Present the data on the receipt in JSON fo
 
 ONLINE: bool = True
 
+
 def file_input(file) -> dict:
     receipt_text: str = get_receipt_text(file)
     query: str = to_gpt_query(receipt_text)
     receipt_data: dict = get_receipt_data(query)
+
+    if receipt_data is None:  # second try
+        receipt_data: dict = get_receipt_data(query)
 
     map_json_to_food_data(receipt_data)
 
@@ -45,7 +49,7 @@ def get_receipt_data(query: str) -> dict:
         gpt_response_json = json.loads(gpt_response)
     except JSONDecodeError:
         print("JSONDecodeError in get_receipt_data")
-        gpt_response_json: dict = {"state": "error"}
+        gpt_response_json: None
 
     return gpt_response_json
 

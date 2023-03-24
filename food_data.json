@@ -11,7 +11,8 @@
   },
   "Aubergine": {
     "co2": 0.2,
-    "base_weigth": 340
+    "base_weigth": 340,
+    "info": null
   },
   "Avocado": {
     "co2": 0.6,
@@ -20,15 +21,18 @@
   },
   "Banane": {
     "co2": 0.6,
-    "base_weigth": 120
+    "base_weigth": 120,
+    "info": null
   },
   "Birne": {
     "co2": 0.3,
-    "base_weigth": 206
+    "base_weigth": 206,
+    "info": null
   },
   "Blumenkohl": {
     "co2": 0.2,
-    "base_weigth": 1000
+    "base_weigth": 1000,
+    "info": null
   },
   "Bohnen": {
     "co2": 0.8,
@@ -57,11 +61,13 @@
   },
   "Feldsalat": {
     "co2": 0.3,
-    "base_weigth": 100
+    "base_weigth": 100,
+    "info": null
   },
   "Fenchel": {
     "co2": 0.2,
-    "base_weigth": 135
+    "base_weigth": 135,
+    "info": null
   },
   "Grünkohl": {
     "co2": 0.3,
@@ -70,7 +76,8 @@
   },
   "Karotten": {
     "co2": 0.1,
-    "base_weigth": 1000
+    "base_weigth": 1000,
+    "info": null
   },
   "Kartoffeln": {
     "co2": 0.2,
@@ -79,7 +86,8 @@
   },
   "Kartoffelpüreepulver": {
     "co2": 0.9,
-    "base_weigth": 230
+    "base_weigth": 230,
+    "info": null
   },
   "Kichererbsen": {
     "co2": 1.3,
@@ -88,19 +96,23 @@
   },
   "Kohlrabi": {
     "co2": 0.2,
-    "base_weigth": 100
+    "base_weigth": 100,
+    "info": null
   },
     "Kürbis": {
         "co2": 0.2,
-        "base_weigth": 1000
+        "base_weigth": 1000,
+        "info": null
     },
     "Lauch": {
         "co2": 0.2,
-        "base_weigth": 150
+        "base_weigth": 150,
+        "info": null
     },
     "Leinsamen": {
         "co2": 1.4,
-        "base_weigth": 400
+        "base_weigth": 400,
+        "info": null
     },
     "Linsen": {
         "co2": 1.2,
@@ -114,11 +126,13 @@
     },
     "Orange / Apfelsine": {
         "co2": 0.3,
-        "base_weigth": 150
+        "base_weigth": 150,
+        "info": null
     },
     "Paprika": {
         "co2": 0.6,
-        "base_weigth": 155
+        "base_weigth": 155,
+        "info": null
     },
     "Pfirsich": {
         "co2": 0.2,
@@ -127,7 +141,8 @@
     },
     "Rettich": {
         "co2": 0.2,
-        "base_weigth": 2000
+        "base_weigth": 2000,
+        "info": null
     },
     "Rosenkohl": {
         "co2": 0.3,
@@ -146,7 +161,8 @@
     },
     "Rucola": {
         "co2": 0.3,
-        "base_weigth": 50
+        "base_weigth": 50,
+        "info": null
     },
     "Salatgurke": {
         "co2": 0.4,
@@ -160,11 +176,13 @@
     },
     "Sellerie": {
         "co2": 0.2,
-        "base_weigth": 650
+        "base_weigth": 650,
+        "info": null
     },
     "Spargel": {
         "co2": 0.7,
-        "base_weigth": 500
+        "base_weigth": 500,
+        "info": null
     },
     "Spinat": {
         "co2": 0.2,
@@ -183,7 +201,8 @@
     },
     "Tomatenmark": {
         "co2": 4.3,
-        "base_weigth": 200
+        "base_weigth": 200,
+        "info": null
     },
     "Trauben": {
         "co2": 0.4,
@@ -192,15 +211,18 @@
     },
     "Weißkohl": {
         "co2": 0.1,
-        "base_weigth": 3000
+        "base_weigth": 3000,
+        "info": null
     },
     "Zucchini": {
         "co2": 0.2,
-        "base_weigth": 200
+        "base_weigth": 200,
+        "info": null
     },
     "Zwiebeln": {
         "co2": 0.2,
-        "base_weigth": 289
+        "base_weigth": 289,
+        "info": null
     },
     "Butter": {
         "co2": 9,
@@ -209,7 +231,8 @@
     },
     "Ei": {
         "co2": 3,
-        "base_weigth": 300
+        "base_weigth": 300,
+        "info": null
     },
     "Joghurt": {
         "co2": 1.7,
@@ -233,19 +256,23 @@
     },
     "Dinkelmilch":{
         "co2": 0.3,
-        "base_weigth": 1000
+        "base_weigth": 1000,
+        "info": null
     },
     "Hafermilch":{
         "co2": 0.3,
-        "base_weigth": 1000
+        "base_weigth": 1000,
+        "info": null
     },
     "Mandelmilch":{
         "co2": 0.3,
-        "base_weigth": 1000
+        "base_weigth": 1000,
+        "info": null
     },
     "Sojamilch":{
         "co2": 0.4,
-        "base_weigth": 1000
+        "base_weigth": 1000,
+        "info": null
     },
     "Quark": {
         "co2": 3.3,
@@ -254,7 +281,8 @@
     },
     "Soja": {
         "co2": 0.7,
-        "base_weigth": 400
+        "base_weigth": 400,
+        "info": null
     },
     "Sahne": {
         "co2": 4.2,
@@ -263,19 +291,23 @@
     },
     "Sahne-Ersatz, Hafer Cuisine": {
         "co2": 0.6,
-        "base_weigth": 250
+        "base_weigth": 250,
+        "info": null
     },
     "Saure Sahne": {
         "co2": 3,
-        "base_weigth": 200
+        "base_weigth": 200,
+        "info": null
     },
     "Bratling/Veggieburger/Patty auf Sojabasis": {
         "co2": 1.1,
-        "base_weigth": 115
+        "base_weigth": 115,
+        "info": null
     },
     "Bratling/Veggieburger/Patty auf Erbsenbasis": {
         "co2": 1.8,
-        "base_weigth": 115
+        "base_weigth": 115,
+        "info": null
     },
     "Fisch": {
         "co2": 5.1,
@@ -284,7 +316,8 @@
     },
     "Gemüsenugget /-schnitzel": {
         "co2": 1.3,
-        "base_weigth": 250
+        "base_weigth": 250,
+        "info": null
     },
     "Hähnchen": {
         "co2": 5.5,
@@ -293,7 +326,8 @@
     },
     "Lupinenmehl": {
         "co2": 0.4,
-        "base_weigth": 500
+        "base_weigth": 500,
+        "info": null
     },
     "Rindfleisch": {
         "co2": 13.6,
@@ -317,7 +351,8 @@
     },
     "Seitan": {
         "co2": 2.5,
-        "base_weigth": 250
+        "base_weigth": 250,
+        "info": null
     },
     "Sojagranulat": {
         "co2": 1,
@@ -326,11 +361,13 @@
     },
     "Tempeh": {
         "co2": 0.7,
-        "base_weigth": 200
+        "base_weigth": 200,
+        "info": null
     },
     "Tofu": {
         "co2": 1,
-        "base_weigth": 500
+        "base_weigth": 500,
+        "info": null
     },
     "Wildfleisch": {
         "co2": 11.5,
@@ -339,15 +376,18 @@
     },
     "Wurst, Bratwurst, Thüringer Rostbratwurst": {
         "co2": 2.9,
-        "base_weigth": 500
+        "base_weigth": 500,
+        "info": null
     },
     "Vegane Bratwurst": {
         "co2": 1.7,
-        "base_weigth": 500
+        "base_weigth": 500,
+        "info": null
     },
     "Wurstaufschnitt vom Rind": {
         "co2": 7.9,
-        "base_weigth": 400
+        "base_weigth": 400,
+        "info": null
     },
     "Brot": {
         "co2": 0.6,
@@ -356,39 +396,48 @@
     },
     "Bulgur": {
         "co2": 0.6,
-        "base_weigth": 100
+        "base_weigth": 100,
+        "info": null
     },
     "Dinkel": {
         "co2": 0.7,
-        "base_weigth": 1000
+        "base_weigth": 1000,
+        "info": null
     },
     "Erdnüsse, in Schale": {
         "co2": 0.8,
-        "base_weigth": 200
+        "base_weigth": 200,
+        "info": null
     },
     "Erdnussbutter": {
         "co2": 2,
-        "base_weigth": 250
+        "base_weigth": 250,
+        "info": null
     },
     "Feinbackwaren": {
         "co2": 1.6,
-        "base_weigth": 250
+        "base_weigth": 250,
+        "info": null
     },
     "Gnocchi": {
         "co2": 0.6,
-        "base_weigth": 300
+        "base_weigth": 300,
+        "info": null
     },
     "Haferflocken": {
         "co2": 0.6,
-        "base_weigth": 500
+        "base_weigth": 500,
+        "info": null
     },
     "Honig": {
         "co2": 2,
-        "base_weigth": 500
+        "base_weigth": 500,
+        "info": null
     },
     "Kokosöl": {
         "co2": 2.3,
-        "base_weigth": 1000
+        "base_weigth": 1000,
+        "info": null
     },
     "Margarine": {
         "co2": 1.7,
@@ -402,11 +451,13 @@
     },
     "Olivenöl": {
         "co2": 3.2,
-        "base_weigth": 1000
+        "base_weigth": 1000,
+        "info": null
     },
     "Palmfett": {
         "co2": 2.9,
-        "base_weigth": 100
+        "base_weigth": 100,
+        "info": null
     },
     "Pommes": {
         "co2": 0.7,
@@ -415,11 +466,13 @@
     },
     "Rapsöl": {
         "co2": 3.3,
-        "base_weigth": 1000
+        "base_weigth": 1000,
+        "info": null
     },
     "Reis": {
         "co2": 3.1,
-        "base_weigth": 1000
+        "base_weigth": 1000,
+        "info": null
     },
     "Schokolade": {
         "co2": 4.1,
@@ -428,7 +481,8 @@
     },
     "Sonnenblumenkerne": {
         "co2": 1.5,
-        "base_weigth": 500
+        "base_weigth": 500,
+        "info": null
     },
     "Sonnenblumenöl": {
         "co2": 3.2,
@@ -437,7 +491,8 @@
     },
     "Walnüsse": {
         "co2": 0.9,
-        "base_weigth": 200
+        "base_weigth": 200,
+        "info": null
     },
     "Zucker": {
         "co2": 0.7,

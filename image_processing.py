@@ -2,7 +2,6 @@ from google.cloud import vision
 import io
 import json
 
-
 from typing import Sequence
 
 
@@ -27,8 +26,6 @@ def analyze_image_from_uri(
 def print_text(response: vision.AnnotateImageResponse):
     print("=" * 80)
     for annotation in response.text_annotations:
-
-
         vertices = [f"({v.x},{v.y})" for v in annotation.bounding_poly.vertices]
         print(
             f"{repr(annotation.description):42}",
@@ -101,21 +98,16 @@ def detect_text_from_file(file) -> str:
     response = client.text_detection(image=image)
     texts = response.text_annotations
 
-    single_string_output:str = texts[0].description
+    single_string_output: str = texts[0].description
 
     print(single_string_output)
 
     return single_string_output
 
 
-def test(): 
-    path = "./test-data/kassenbon-1.jpg"
-    return analyze_image_from_uri(path, [vision.Feature.Type.TEXT_DETECTION])
-
-
-
 if __name__ == '__main__':
-    # detect_labels(path)
-     #detect_text(path)
-    test()
+    path = "./test-data/kassenbon-1.jpg"
+    analyze_image_from_uri(path, [vision.Feature.Type.TEXT_DETECTION])
 
+    # detect_labels(path)
+    # detect_text(path)

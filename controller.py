@@ -86,13 +86,14 @@ def map_json_to_food_data(receipt_data: dict):
 
             if data.get("info") is None:
                 item["info"] = None
-            else: item["info"] = data["info"]
+            else:
+                item["info"] = data["info"]
 
     print(receipt_data)
 
 
 if __name__ == '__main__':
-    path = "./test-data/kassenbon-3.png"
+    path = "./test-data/kassenbon-4.jpg"
 
     with io.open(path, 'rb') as image_file:
         file_input(image_file)
